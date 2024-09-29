@@ -6,7 +6,7 @@ const mostrarPoema = ref(false)
 
 async function obtenerYTraducirPoemas() {
   try {
-    const response = await fetch('http://poetrydb.org/author/All')
+    const response = await fetch('https://poetrydb.org/author/All')
     const poemas = await response.json()
 
     const indiceAleatorio = Math.floor(Math.random() * poemas.length);
