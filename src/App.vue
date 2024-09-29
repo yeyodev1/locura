@@ -10,10 +10,6 @@ import HomeView from './views/HomeView.vue';
 
 <style scoped>
 .principal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
